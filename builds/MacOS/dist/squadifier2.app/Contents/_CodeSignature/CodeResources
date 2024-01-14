@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/__boot__.py</key>
 		<data>
-		4xU9mob5sgeZVbkWtjcXjGG0xLo=
+		ZimxMVpfgIzdjxAEWusJPLoNgKs=
 		</data>
 		<key>Resources/__error__.sh</key>
 		<data>
@@ -32,11 +32,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4xU9mob5sgeZVbkWtjcXjGG0xLo=
+			ZimxMVpfgIzdjxAEWusJPLoNgKs=
 			</data>
 			<key>hash2</key>
 			<data>
-			DbRSD6gB7Eli4y9MVh2urX8xdrPW1wD7DNsSgGro4S0=
+			GUFGadntDGnZOjOWWxOqnroPYQTOn7d0nfRYOwa+HeM=
 			</data>
 		</dict>
 		<key>Resources/__error__.sh</key>
@@ -64,7 +64,7 @@
 		<key>Resources/icon.png</key>
 		<dict>
 			<key>symlink</key>
-			<string>/Users/francescobambina/Desktop/Coding Projects/Random Coding/squadifier2/src/icon.png</string>
+			<string>/Users/francescobambina/Desktop/Coding Projects/Random Coding/squadifier2/icon.png</string>
 		</dict>
 		<key>Resources/lib/python3.11/config</key>
 		<dict>
