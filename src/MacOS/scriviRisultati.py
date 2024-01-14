@@ -5,6 +5,3 @@ def scriviMacOS(squadNum, testo):
     with open(filename, 'a+') as file:
         file.write(testo)
     return filename
-
-def scriviWindows(squadNum, testo):
-    pass

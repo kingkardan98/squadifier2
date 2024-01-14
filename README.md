@@ -21,10 +21,23 @@ per aggiornare il file `squadifier2.py` con il nuovo layout.<br />
 <span style="color: red"><b>ATTENZIONE:</b></span> questa operazione sovrascrive qualsiasi tipo di inserzioni manuali, utilizzare a proprio rischio e pericolo.
 
 ## Windows
+L'eseguibile è utilizzabile così com'è, e il file con le squadre verrà generato nella stessa directory dell'eseguibile. Si trova nella cartella `Windows/dist`.
+
+Nel caso in cui si modifichi il codice sorgente, eliminare le cartelle `build` e `dist`, poi, aprendo il terminale nella cartella del codice sorgente, usare questi comandi:
+```bash
+pip install pyinstaller
+```
+per installare il modulo `pyinstaller`, che converte script python in app eseguibili per Windows. [Link documentazione pyinstaller](https://pyinstaller.org/en/stable/)
+
+```bash
+pyinstaller squadifier2.py --noconsole --icon="../../icon.ico" --onefile
+```
+per rigenerare l'eseguibile. Le flag `noconsole` e `onefile` assicurano la creazione, rispettivamente, di un eseguibile che non si avvii con la console di comando, e che contenga tutti i .dll al suo interno,
+così da rendere la UX un po' più godibile.
 
 
 ## MacOS
-L'app è utilizzabile così com'è, e il file con le squadre verrà generato nella stessa directory dell'app.
+L'app è utilizzabile così com'è, e il file con le squadre verrà generato nella stessa directory dell'app. Si trova nella cartella `MacOS/dist`.
 
 Nel caso in cui si modifichi il codice sorgente, eliminare le cartelle `build` e `dist`, poi, aprendo il terminale nella cartella del codice sorgente, usare questi comandi:
 ```bash
