@@ -10,7 +10,7 @@ from setuptools import setup
 APP = ['squadifier2.py']
 DATA_FILES = []
 OPTIONS = {
-    'iconfile':'icon.png',
+    'iconfile':'../../icon.png',
     'plist': {'CFBundleShortVersionString':'0.1.0',}
 }
 

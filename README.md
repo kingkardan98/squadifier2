@@ -19,13 +19,18 @@ pyuic5 -x squadifier2.ui -o squadifier2.py
 per aggiornare il file `squadifier2.py` con il nuovo layout.<br />
 
 <span style="color: red"><b>ATTENZIONE:</b></span> questa operazione sovrascrive qualsiasi tipo di inserzioni manuali, utilizzare a proprio rischio e pericolo.
+
 ## Windows
 
 
 ## MacOS
 L'app è utilizzabile così com'è, e il file con le squadre verrà generato nella stessa directory dell'app.
 
-Nel caso in cui si modifichi il codice sorgente, eliminare le cartelle `build` e `dist`, poi, aprendo il terminale nella cartella del codice sorgente, usare questi due comandi:
+Nel caso in cui si modifichi il codice sorgente, eliminare le cartelle `build` e `dist`, poi, aprendo il terminale nella cartella del codice sorgente, usare questi comandi:
+```bash
+pip install py2app
+```
+per installare il modulo `py2app`, che converte script python in app eseguibili per MacOS. [Link documentazione py2app](https://py2app.readthedocs.io/en/latest/)
 
 ```bash
 py2applet --make-setup squadifier2.py
