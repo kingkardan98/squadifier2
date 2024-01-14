@@ -207,9 +207,9 @@
   <widget class="QLabel" name="msgLbl">
    <property name="geometry">
     <rect>
-     <x>680</x>
+     <x>470</x>
      <y>340</y>
-     <width>301</width>
+     <width>511</width>
      <height>71</height>
     </rect>
    </property>
@@ -235,6 +235,13 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
    <property name="styleSheet">
     <string notr="true">border-radius: 10px; border: 1px solid rgba(105, 105, 105, 0.5); background-color: rgba(255, 255, 255, 0.5)</string>
    </property>
@@ -250,6 +257,13 @@
      <width>291</width>
      <height>51</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius: 10px; border: 1px solid rgba(105, 105, 105, 0.5); background-color: rgba(0, 255, 0, 0.5)</string>
@@ -315,6 +329,13 @@
      <height>21</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
    <property name="inputMethodHints">
     <set>Qt::ImhDigitsOnly</set>
    </property>
@@ -327,6 +348,13 @@
      <width>111</width>
      <height>21</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
    </property>
    <property name="inputMethodHints">
     <set>Qt::ImhDigitsOnly</set>
@@ -341,6 +369,13 @@
      <height>21</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
   </widget>
   <widget class="QLineEdit" name="trediciEdit">
    <property name="geometry">
@@ -350,6 +385,13 @@
      <width>111</width>
      <height>21</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
    </property>
    <property name="inputMethodHints">
     <set>Qt::ImhDigitsOnly</set>
