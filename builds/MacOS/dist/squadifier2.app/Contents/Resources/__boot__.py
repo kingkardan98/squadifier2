@@ -94,7 +94,7 @@ def _path_inject(paths):
     sys.path[:0] = paths
 
 
-_path_inject(['/Users/francescobambina/Desktop/Coding Projects/Random Coding/squadifier2/src/MacOS'])
+_path_inject(['/Users/francescobambina/Desktop/Coding Projects/squadifier2/src/MacOS'])
 
 
 import re
@@ -147,7 +147,7 @@ def _run():
     exec(compile(source, script, "exec"), globals(), globals())
 
 
-DEFAULT_SCRIPT='/Users/francescobambina/Desktop/Coding Projects/Random Coding/squadifier2/src/MacOS/squadifier2.py'
+DEFAULT_SCRIPT='/Users/francescobambina/Desktop/Coding Projects/squadifier2/src/MacOS/squadifier2.py'
 SCRIPT_MAP={}
 try:
     _run()
